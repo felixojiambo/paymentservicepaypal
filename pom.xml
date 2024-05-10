@@ -30,7 +30,12 @@
 			<artifactId>paypal-core</artifactId>
 			<version>1.7.0</version>
 		</dependency>
-payp
+		<dependency>
+			<groupId>com.paypal.sdk</groupId>
+			<artifactId>rest-api-sdk</artifactId>
+			<version>1.14.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
