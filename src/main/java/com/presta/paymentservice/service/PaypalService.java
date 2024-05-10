@@ -38,4 +38,11 @@ public class PaypalService {
         payment.setRedirectUrls(redirectUrls);
         return  payment.create(apiContext);
     }
+    public  Payment executePayment(String paymentId, String payerId){
+        Payment payment=new Payment();
+        payment.setId(paymentId);
+        PaymentExecution paymentExecution=new PaymentExecution();
+        paymentExecution.setPayerId(payerId);
+        return  payment.execute(apiContext,paymentExecution);
+    }
 }
