@@ -52,9 +52,13 @@ public class PaypalController {
                 }
                 catch (PayPalRESTException e){
                     log.error("Error occured: ",e);
-                }return  "paymentSuccess"
+                }return  "paymentSuccess";
         }
 
-        )
-    }
+       @GetMapping("/payment/cancel")
+    public  String paymentCance(){
+
+                return  "payment cancellled";
+       }
+
 }
