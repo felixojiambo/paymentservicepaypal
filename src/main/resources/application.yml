@@ -1,8 +1,1 @@
-spring:
-  application:
-   name = paymentservice
 
-paypal:
-  client-id: Aa0bdu_Tdfz04FmgCW7U7WC-t5XGU86nk8gaeeMgxFdnu-XyhtJuaTqMGtyZhd7SN9X7oeawRT0XE0NA
-  client-secret: EFd7mnRK3sxC1V2GZvq9pS1B1EJYBU0rVJBN-dIbUpR-TMnCdSxuQ_zQknQDeb_jfaxVnhlY0cHN2vT4
-  mode: sandbox #use sandbox for testing and 'live" for production
