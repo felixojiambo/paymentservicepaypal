@@ -46,7 +46,9 @@ public class PaypalController {
             @RequestParam("paymentId") String paymentId,@RequestParam("payerId") String payerId{
                 try {
                     Payment payment=paypalService.executePayment(paymentId,payerId);
-                  if(pay)
+                  if(payment.getState().equals("approved")){
+                      return  "paymentSuccess"
+                  }
                 }
                 catch (PayPalRESTException e){
                     log.error("Error occured: ",e);
