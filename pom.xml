@@ -25,7 +25,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>com.paypal.sdk</groupId>
+			<artifactId>paypal-core</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+payp
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
