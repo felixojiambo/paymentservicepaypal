@@ -56,9 +56,11 @@ public class PaypalController {
         }
 
        @GetMapping("/payment/cancel")
-    public  String paymentCance(){
-
+    public  String paymentCancel(){
                 return  "payment cancellled";
        }
-
+    @GetMapping("/payment/error")
+    public  String paymentError(){
+        return  "payment error";
+    }
 }
