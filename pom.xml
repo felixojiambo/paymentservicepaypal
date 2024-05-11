@@ -32,7 +32,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.paypal.sdk</groupId>
-			<artifactId>rest-api-sdk</artifactId>
+			<artifactId>rest-api-sdk</artifactId>Z
 			<version>1.14.0</version>
 		</dependency>
 
